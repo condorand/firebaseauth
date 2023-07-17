@@ -5,7 +5,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/devtony101/firebaseauth</url>
+			<url>https://maven.pkg.github.com/condorand/firebaseauth</url>
 		</repository>
 	</distributionManagement>
 	<modelVersion>4.0.0</modelVersion>
@@ -15,9 +15,9 @@
 		<version>3.1.1</version>
 		<relativePath/>
 	</parent>
-	<groupId>io.github.devtony101</groupId>
+	<groupId>io.github.condorand</groupId>
 	<artifactId>firebaseauth</artifactId>
-	<version>1.2.3</version>
+	<version>1.2.4</version>
 	<name>firebaseauth</name>
 	<description>Library used to abstract api authentication with Firebase</description>
 	<properties>

@@ -42,8 +42,7 @@ public class FirebaseUtils {
               .setDatabaseUrl(DATABASE_URL)
               .build();
 
-      if (FirebaseApp.getApps().size() == 0)
-        FirebaseApp.initializeApp(options);
+      FirebaseApp.initializeApp(options);
       log.info("Firebase initialized correctly");
     } catch (IOException e) {
       log.error("Error while trying to initialize firebase", e);

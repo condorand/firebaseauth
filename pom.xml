@@ -17,7 +17,7 @@
 	</parent>
 	<groupId>io.github.condorand</groupId>
 	<artifactId>firebaseauth</artifactId>
-	<version>1.2.4</version>
+	<version>1.2.6</version>
 	<name>firebaseauth</name>
 	<description>Library used to abstract api authentication with Firebase</description>
 	<properties>
